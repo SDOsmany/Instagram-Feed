@@ -1,3 +1,42 @@
-p{
-    color: bisque;
+top{
+    column-count: 5;
+    column-gap: 1 em;
+}
+
+.wrapper{
+    background-color: lavender;
+    
+    max-height: 100%;
+    max-width: 100%;
+
+}
+.wrapper2{
+    margin: 0px auto;
+    max-height: 100%;
+    max-width: 600px;
+}
+.post{
+    display: flex;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    background-color:white;
+}
+.one{
+    
+    background-color: white;
+    margin: 2em 0 2em;
+
+}
+.one img{
+    height:400px;
+    width: 100%;
+}
+.two{
+    
+    height: 465px;
+    min-width: 100px;
+    background-color: white;
+
 }
