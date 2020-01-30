@@ -1,42 +1,57 @@
-top{
-    column-count: 5;
-    column-gap: 1 em;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
 }
 
-.wrapper{
-    background-color: lavender;
-    
-    max-height: 100%;
-    max-width: 100%;
+.posts {
+  background-color: rgb(226, 225, 224);
+  padding: 30px 0px;
+  display: flex;
+  height: 100%;
+}
+.header {
+  text-align: center;
+  background-color: white;
+}
+.one {
+  background-color: white;
+  width: 600px;
+  margin: 0px auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 25px;
+  
+}
+.one p {
+  padding: 10px 0px;
+  margin: 0;
+}
+span {
+  float: right;
+}
+.one img {
+  padding: 5px 0px;
+  height: 400px;
+  width: 100%;
+}
+.empty{
+  width: 500px;
+  height: 600px;
+  background-color: black;
+  margin:0px auto;
+}
+.description{
+  padding: 10px ;
+}
+.heading{
+  padding: 10px 10px;
+  font-size: 15pt;
 
 }
-.wrapper2{
-    margin: 0px auto;
-    max-height: 100%;
-    max-width: 600px;
-}
-.post{
-    display: flex;
-}
-.header{
-    text-align: center;
-    width: 100%;
-    background-color:white;
-}
-.one{
-    
-    background-color: white;
-    margin: 2em 0 2em;
-
-}
-.one img{
-    height:400px;
-    width: 100%;
-}
-.two{
-    
-    height: 465px;
-    min-width: 100px;
-    background-color: white;
-
+.heading span{
+  color: rgb(185, 181, 181);
+  font-size: 14pt;
+  vertical-align: middle;
 }
